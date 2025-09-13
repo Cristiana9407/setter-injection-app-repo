@@ -13,10 +13,10 @@ public class DemoController {
     private Chef myChef;
 
     //setter injection
-    @Autowired
-    public void setMyChef(Chef theChef) {
-        myChef = theChef;
-    }
+   // @Autowired
+   // public void setMyChef(Chef theChef) {
+   //     myChef = theChef;
+  //  }
 
 
     @GetMapping("/dailyrecipe")
